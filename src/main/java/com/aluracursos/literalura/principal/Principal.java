@@ -98,7 +98,6 @@ public class Principal {
         System.out.println("Ingrese el nombre del libro: ");
         var nombreLibro = sc.nextLine().toLowerCase();
         var json = consumoApi.obtenerDatos(API_BASE + nombreLibro.replace(" ", "%20"));
-        //System.out.println("JSON INICIAL: " + json);
         Respuestas datos = convertir.obtenerDatos(json, Respuestas.class);
 
         if (datos != null && datos.getResultadoLibros() != null && !datos.getResultadoLibros().isEmpty()) {

@@ -18,7 +18,7 @@ public class Autor {
         private Integer fechaFallecimiento;
 
         @OneToMany(mappedBy = "autor", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-        //@Transient
+
         private List<Libro> libros;
 
 
