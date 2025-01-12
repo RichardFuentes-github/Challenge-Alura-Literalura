@@ -23,7 +23,7 @@ La idea es contribuir con la necesida de todos aquellos que quieran llevar un re
 
 <h3>Consideraciones para el Usurario</h3>
 Algunas consideraciones a tener en cuenta por el usuario:
- - Contar con sistema PostgreSQL para el manejo de base de datos.
+ <p>- Contar con sistema PostgreSQL para el manejo de base de datos.</p>
  - Los resultados para la opcion [4] muestra los autores vivos para una fecha determinada y no para un periodo de tiempo.
 
 <h3>Caracteristicas del sistema</h3>
